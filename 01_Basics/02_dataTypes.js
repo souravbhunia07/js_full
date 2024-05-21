@@ -23,7 +23,36 @@ let isLoggedIn = false; // Boolean
 
 // object
 
-console.log(typeof "sourav"); // string
-console.log(typeof age); // number
-console.log(typeof null); // object
-console.log(typeof undefined); // undefined
+// console.log(typeof "sourav"); // string
+// console.log(typeof age); // number
+// console.log(typeof null); // object
+// console.log(typeof undefined); // undefined
+
+// Primitive (call by value)
+// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+
+const id = Symbol('123');
+const anotherId = Symbol('123');
+
+console.log(id === anotherId);
+
+const bigNumber = 5789458943743874783232879283283n; // Big int
+
+// console.log(bigNumber);
+
+// Reference type (Non Primitive)
+// Array, Objects, Functions
+
+const heros = ["shaktiman", "naagraj", "doga"]; // Array
+
+// Object
+let myObj = {
+    name: "sourav",
+    age: 123,
+}
+
+const myFunction = function () {
+    console.log("Hello World!");
+}
+
+// Return tupe of non premitive is "object"
