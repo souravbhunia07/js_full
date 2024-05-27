@@ -276,3 +276,13 @@ const cartValue = shoppingCart.reduce((acc, item) => {
 }, 0);
 
 console.log(cartValue);
+
+// let myString = "Hello World"; // not available for string
+// let output = myString.forEach((char) => {
+//     return char;
+// });
+
+let myString = "Hello World";
+for (let char of myString) {
+    console.log(char);
+}
