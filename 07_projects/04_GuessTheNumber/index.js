@@ -1,4 +1,4 @@
-const randomNumber = Math.floor(Math.random() * 100) + 1;
+let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 const submitButton = document.querySelector('#subt');
 const userInput = document.querySelector('#guessField');
