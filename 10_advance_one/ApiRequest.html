@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITHUB stalker!</title>
+</head>
+<style>
+    #followersList li {
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #821038;
+        border-radius: 5px;
+        background-color: #821038;
+        color: aliceblue;
+        list-style-type: none;
+    }
+</style>
+<body style="background-color: #212121; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <h1 style="color: aliceblue;">GITHUB stalker!</h1>
+    <div>
+        <input type="text" id="username" placeholder="Enter username" style="padding: 10px; margin: 10px; border-radius: 5px; border: none;">
+        <button id="btn" style="padding: 10px; margin: 10px; border-radius: 5px; border: none; background-color: #f50057; color: aliceblue;">Fetch</button>
+    </div>
+    <div id="card" style="display: none; justify-content: center; align-items: center; flex-direction: column; padding: 20px; border: 1px solid #f50057; border-radius: 10px; background-color: #f50057; color: aliceblue; text-align: center; word-wrap: break-word;">
+        <img id="avatar" src="" alt="Avatar" style="width: 100px; height: 100px; border-radius: 50%;">
+        <h2 id="name" style="margin: 10px;"></h2>
+        <p id="followers" style="margin: 10px;"></p>
+        <button id="followersBtn" style="padding: 10px; margin: 10px; border-radius: 5px; border: none; background-color: #821038; color: aliceblue;">
+            Show Followers
+        </button>
+        <ul id="followersList"></ul>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
