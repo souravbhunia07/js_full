@@ -1,0 +1,11 @@
+-> Javascript
+    -> synchronous
+    -> single threaded
+
+execution context
+    ->execute one line of code at a time
+    ->each operation wait for the last one to complete before executing
+
+Blocking code vs Non Blocking code
+-> Block the flow of program    -> Does not block execution
+-> Read file sync   -> read file async
